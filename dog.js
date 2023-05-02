@@ -6,7 +6,7 @@ export class Dog{
         this.age = age;
         this.gender = gender;
         this.colors = colors;
-
+        this.favoriteFood = new Food(foodName, dietType);
     }
 
     sayHello(){
