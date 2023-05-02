@@ -1,6 +1,6 @@
 export class Dog{
 
-    constructor(name, breed, age, gender, colors, foodName){
+    constructor(name, breed, age, gender, colors, foodName, dietType){
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -15,6 +15,10 @@ export class Dog{
 }
 
 class Food{
-    constructor(name, diet);
+    constructor(name, diet){
+        this.name = name;
+        this.diet = diet;
+    }
 
+  
 }

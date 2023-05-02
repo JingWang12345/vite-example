@@ -9,7 +9,6 @@ const ariel = new Dog('ariel', 'border-collie', 18, 'male', ['black', 'white'], 
 console.log(ariel);
 
 
-
 ariel.sayHello();
 
 function fire() {
